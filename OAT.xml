@@ -1,57 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <oatconfig>
+    <licensefile>COPYING</licensefile>
         <policylist>
             <policy name="projectPolicy" desc="">
                 <policyitem type="compatibility" name="GPL-3.0+" path="m4.*" desc="" />
                 <policyitem type="compatibility" name="GPL-2.0+" path="m4.*" desc="" />
-                <policyitem type="compatibility" name="Keith Packard" path=".*" desc="" />
-               <policyitem type="compatibility" name="Keith" path="fc-case.*" desc="" />
-               <policyitem type="compatibility" name="Google" path=".*" desc="" />
-                <policyitem type="compatibility" name="Keith" path=".*" desc="" />
-                <policyitem type="compatibility" name="Hat" path=".*" desc="" />
-                <policyitem type="compatibility" name="Behdad Esfahbod" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright1" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright2" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright3" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright4" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright5" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright6" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright7" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright8" path=".*" desc="" />
+                <policyitem type="compatibility" name="SMLNJ" path=".*" desc="" />
+                <policyitem type="compatibility" name="Public Domain Disclaimer" path=".*" desc="" />
             </policy>
         </policylist>
         <filefilterlist>
             <filefilter name="defaultPolicyFilter"
                 desc="Filters for compatibility,license header policies">
-                <filteritem type="filepath" name="third_party/llvm-10.0/llvm/include/llvm/Support/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/SPIRV-Tools/BUILD.bazel"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/llvm-subzero/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/subzero/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/subzero/bloat/README.chromium"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/llvm-10.0/Android.bp"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/SPIRV-Headers/BUILD.bazel"
-                    desc="" />
-                <filteritem type="filepath" name="README.OpenSource"
-                    desc="" />
-                <filteritem type="filepath" name="doc/fcinit.fncs"
-                    desc="" />
-                <filteritem type="filepath" name=".*orth"
-                    desc="" />
-                <filteritem type="filepath" name=".*am"
-                    desc="" />
-                <filteritem type="filepath" name=".*fncs"
-                    desc="" />
                 <filteritem type="filepath" name="po-conf/zh_CN.po"
-                    desc="" />
-                <filteritem type="filepath" name="COPYING"
                     desc="" />
                 <filteritem type="filepath" name="po/zh_CN.po"
                     desc="" />
@@ -59,86 +21,90 @@
                     desc="" />
                 <filteritem type="filepath" name="m4/ac_check_symbol.m4"
                     desc="" />
-                </filefilter>
-                <filefilter name="defaultFilter">
                 <filteritem type="filepath" name="README.OpenSource"
+                    desc="" />
+            </filefilter>
+            <filefilter name="defaultFilter">
+                <filteritem type="filepath" name="README.OpenSource"
+                    desc="" />
+                <filteritem type="filepath" name="test/4x6.pcf"
+                    desc="" />
+                <filteritem type="filepath" name="test/8x16.pcf"
                     desc="" />
             </filefilter> 
         </filefilterlist>
         <licensematcherlist>
-            <licensematcher name="Keith Packard" desc="">
+            <licensematcher name="Public Domain Disclaimer" desc="">
                 <licensetext name="
-                 * Copyright © 2002 Keith Packard
-            " desc="" />
-            </licensematcher>  
-            <licensematcher name="Keith" desc="">
-                <licensetext name="
-                 * Copyright © 2004 Keith Packard
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="Google" desc="">
-                <licensetext name="
-                * Copyright © 2013  Google, Inc.
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="Keith" desc="">
-                <licensetext name="
-                * Copyright © 2001 Keith Packard
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="Hat" desc="">
-                <licensetext name="
-                * Copyright © 2012 Red Hat, Inc.
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="Behdad Esfahbod" desc="">
-                <licensetext name="
-                * Red Hat Author(s): Behdad Esfahbod
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="Copyright" desc="">
-                <licensetext name="
-                * Copyright © 2003 Keith Packard
+                * TUOMAS LUKKA DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+                * INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+                * EVENT SHALL TUOMAS LUKKA BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+                * CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+                * DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+                * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+                * PERFORMANCE OF THIS SOFTWARE.
             " desc="" />
             </licensematcher>
-            <licensematcher name="Copyright1" desc="">
+            <licensematcher name="FSFAP" desc="">
                 <licensetext name="
-               * Copyright © 2000 Keith Packard
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="Copyright2" desc="">
-                <licensetext name="
-               * Copyright © 2007 Keith Packard
+                # Copying and distribution of this file, with or without modification,
+                # is permitted in any medium without royalty provided the copyright
+                # notice and this notice are preserved.
             " desc="" />
             </licensematcher>
-            <licensematcher name="Copyright3" desc="">
+            <licensematcher name="0BSD" desc="">
                 <licensetext name="
-                * Copyright © 2000 Tuomas J. Lukka
-            " desc="" />
-            </licensematcher> 
-             <licensematcher name="Copyright4" desc="">
-                <licensetext name="
-                * Copyright 息 2010 Behdad Esfahbod
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="Copyright5" desc="">
-                <licensetext name="
-                * Copyright © 2006 Keith Packard
+                dnl  THE AUTHOR(S) DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+                dnl  INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+                dnl  EVENT SHALL THE AUTHOR(S) BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+                dnl  CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+                dnl  DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+                dnl  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+                dnl  PERFORMANCE OF THIS SOFTWARE.
             " desc="" />
             </licensematcher>
-            <licensematcher name="Copyright6" desc="">
+            <licensematcher name="Public Domain Disclaimer" desc="">
                 <licensetext name="
-                # Copyright © 2018 Keith Packard
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="Copyright7" desc="">
-                <licensetext name="
-                * fontconfig/src/fcweight.c
+                # NESKIE MANUEL DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+                # INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+                # EVENT SHALL NESKIE MANUEL BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+                # CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+                # DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+                # TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+                # PERFORMANCE OF THIS SOFTWARE.
             " desc="" />
             </licensematcher>
-            <licensematcher name="Copyright8" desc="">
+            <licensematcher name="Public Domain Disclaimer" desc="">
                 <licensetext name="
-                # Copyright 2009, Red Hat, Inc.
+                # DWAYNE BAILEY AND TRANSLATE.ORG.ZA DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+                # INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+                # EVENT SHALL DWAYNE BAILEY OR TRANSLATE.ORG.ZA BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+                # CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+                # DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+                # TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+                # PERFORMANCE OF THIS SOFTWARE.
+            " desc="" />
+            </licensematcher>
+            <licensematcher name="0BSD" desc="">
+                <licensetext name="
+                * THE COPYRIGHT HOLDERS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+                * INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+                * EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+                * CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+                * DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+                * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
+                * OF THIS SOFTWARE.
+            " desc="" />
+            </licensematcher>
+            <licensematcher name="0BSD" desc="">
+                <licensetext name="
+                # THE AUTHOR(S) DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+                # INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+                # EVENT SHALL THE AUTHOR(S) BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+                # CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+                # DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+                # TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+                # PERFORMANCE OF THIS SOFTWARE.
             " desc="" />
             </licensematcher>
         </licensematcherlist>
