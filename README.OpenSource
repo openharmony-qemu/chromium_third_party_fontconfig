@@ -1,6 +1,6 @@
 [
     {
-        "Name": "chromium_third_party_fontconfig",                   # 上游开源软件名全称
+        "Name": "fontconfig",                   # 上游开源软件名全称
         "License": "Public Domain Disclaimer"     # 上游开源软件中包含的许可证信息
         "License File": "COPYING"    # 许可证所在文件路径
         "Version Number": "452be8125f0e2a18a7dfef469e05d19374d36307",
@@ -8,7 +8,7 @@
         "Description": "第三方软件fontconfig"           # 开源软件功能描述
     },
     {
-        "Name": "chromium_third_party_fontconfig",                   # 上游开源软件名全称
+        "Name": "fontconfig",                   # 上游开源软件名全称
         "License": "GPL-3.0+"     # 上游开源软件中包含的许可证信息
         "License File": "COPYING"    # 许可证所在文件路径
         "Version Number": "452be8125f0e2a18a7dfef469e05d19374d36307",
@@ -16,7 +16,7 @@
         "Description": "第三方软件fontconfig"           # 开源软件功能描述
     },
     {
-        "Name": "chromium_third_party_fontconfig",                   # 上游开源软件名全称
+        "Name": "fontconfig",                   # 上游开源软件名全称
         "License": "GPL-2.0+"    # 上游开源软件中包含的许可证信息
         "License File": "COPYING"    # 许可证所在文件路径
         "Version Number": "452be8125f0e2a18a7dfef469e05d19374d36307",
@@ -24,7 +24,7 @@
         "Description": "第三方软件fontconfig"           # 开源软件功能描述
     },
     {
-        "Name": "chromium_third_party_fontconfig",                   # 上游开源软件名全称
+        "Name": "fontconfig",                   # 上游开源软件名全称
         "License": "SMLNJ"      # 上游开源软件中包含的许可证信息
         "License File": "COPYING"    # 许可证所在文件路径
         "Version Number": "452be8125f0e2a18a7dfef469e05d19374d36307",
@@ -32,7 +32,7 @@
         "Description": "第三方软件fontconfig"           # 开源软件功能描述
     },
     {
-        "Name": "chromium_third_party_fontconfig",                   # 上游开源软件名全称
+        "Name": "fontconfig",                   # 上游开源软件名全称
         "License": "FSFAP"      # 上游开源软件中包含的许可证信息
         "License File": "COPYING"    # 许可证所在文件路径
         "Version Number": "452be8125f0e2a18a7dfef469e05d19374d36307",
@@ -40,7 +40,7 @@
         "Description": "第三方软件fontconfig"           # 开源软件功能描述
     },
     {
-        "Name": "chromium_third_party_fontconfig",                   # 上游开源软件名全称
+        "Name": "fontconfig",                   # 上游开源软件名全称
         "License": "0BSD"      # 上游开源软件中包含的许可证信息
         "License File": "COPYING"    # 许可证所在文件路径
         "Version Number": "452be8125f0e2a18a7dfef469e05d19374d36307",
