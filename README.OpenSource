@@ -1,11 +1,11 @@
 [
     {
-        "Name": "fontconfig",                   # 上游开源软件名全称
-        "License": "HPND-sell-variant"     # 上游开源软件中包含的许可证信息
-        "License File": "COPYING"    # 许可证所在文件路径
+        "Name": "fontconfig",
+        "License": "HPND-sell-variant",
+        "License File": "COPYING",
         "Version Number": "452be8125f0e2a18a7dfef469e05d19374d36307",
         "Owner": "huangjiewen2@huawei.com",
-        "Upstream URL": "https://chromium.googlesource.com/external/fontconfig.git@452be8125f0e2a18a7dfef469e05d19374d36307",   # 上游软件包发布地址
-        "Description": "第三方软件fontconfig"           # 开源软件功能描述
+        "Upstream URL": "https://chromium.googlesource.com/external/fontconfig.git@452be8125f0e2a18a7dfef469e05d19374d36307",
+        "Description": "第三方软件fontconfig"
     }
 ]

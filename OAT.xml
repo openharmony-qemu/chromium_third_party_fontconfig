@@ -63,11 +63,11 @@ used to filter file path.
     <licensefile>COPYING</licensefile>
         <policylist>
             <policy name="projectPolicy" desc="">
-                <policyitem type="compatibility" name="GPL-3.0+" path="m4.*" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="GPL-2.0+" path="m4.*" desc="经法务确认,涉及文件在render下进行了隔离" />
-                <policyitem type="compatibility" name="Public Domain Disclaimer" path=".*" desc="经法务确认,涉及文件在render下进行了隔离" />
-                <policyitem type="compatibility" name="Free unknown license detected but not recognized" path="po/zh_CN.po" desc="经法务确认,涉及文件在render下进行了隔离" />
-                <policyitem type="compatibility" name="Free unknown license detected but not recognized" path="po-conf/zh_CN.po" desc="经法务确认,涉及文件在render下进行了隔离" />
+                <policyitem type="compatibility" name="Public Domain Disclaimer" path="fc-lang.*" desc="经法务确认经法务确认为宽松型许可证" />
+                <policyitem type="compatibility" name="Public Domain Disclaimer" path="src/fcmatrix.c" desc="经法务确认经法务确认为宽松型许可证" />
+                <policyitem type="compatibility" name="Free unknown license detected but not recognized" path="po/zh_CN.po" desc="经法务确认经法务确认为宽松型许可证" />
+                <policyitem type="compatibility" name="Free unknown license detected but not recognized" path="po-conf/zh_CN.po" desc="经法务确认经法务确认为宽松型许可证" />
             </policy>
         </policylist>
         <filefilterlist>
@@ -81,7 +81,11 @@ used to filter file path.
             <filefilter name="binaryFileTypePolicyFilter" desc="Check to see if it is a binary file">
                 <filteritem type="filepath" name="test/4x6.pcf" desc="chromium原生二进制文件,不会使用" />
                 <filteritem type="filepath" name="test/8x16.pcf" desc="chromium原生二进制文件,不会使用" />
-            </filefilter> 
+            </filefilter>
+            <filefilter name="defaultFilter" desc="File is not used">
+                <filteritem type="filepath" name="m4/ax_cc_for_build.m4" desc="GPL-3.0+禁止使用" />
+                <filteritem type="filepath" name="m4/ax_pthread.m4" desc="GPL-3.0+禁止使用" />
+            </filefilter>
         </filefilterlist>
         <licensematcherlist>
             <licensematcher name="Free unknown license detected but not recognized" desc="">
