@@ -83,8 +83,8 @@ used to filter file path.
                 <filteritem type="filepath" name="test/8x16.pcf" desc="chromium原生二进制文件,不会使用" />
             </filefilter>
             <filefilter name="defaultFilter" desc="File is not used">
-                <filteritem type="filepath" name="m4/ax_cc_for_build.m4" desc="GPL-3.0+禁止使用" />
-                <filteritem type="filepath" name="m4/ax_pthread.m4" desc="GPL-3.0+禁止使用" />
+                <filteritem type="filepath" name="m4/ax_cc_for_build.m4" desc="该文件涉及GPL-3.0+,经确认不会使用" />
+                <filteritem type="filepath" name="m4/ax_pthread.m4" desc="该文件涉及GPL-3.0+,经确认不会使用" />
             </filefilter>
         </filefilterlist>
         <licensematcherlist>
@@ -99,33 +99,11 @@ used to filter file path.
                 # Mingye Wang &lt;artoria2e5@aosc.io&gt;, 2018.
             " desc="" />
             </licensematcher>
-            <licensematcher name="Public Domain Disclaimer" desc="">
-                <licensetext name="
-                * TUOMAS LUKKA DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
-                * INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
-                * EVENT SHALL TUOMAS LUKKA BE LIABLE FOR ANY SPECIAL, INDIRECT OR
-                * CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
-                * DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
-                * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-                * PERFORMANCE OF THIS SOFTWARE.
-            " desc="" />
-            </licensematcher>
             <licensematcher name="FSFAP" desc="">
                 <licensetext name="
                 # Copying and distribution of this file, with or without modification,
                 # is permitted in any medium without royalty provided the copyright
                 # notice and this notice are preserved.
-            " desc="" />
-            </licensematcher>
-            <licensematcher name="0BSD" desc="">
-                <licensetext name="
-                dnl  THE AUTHOR(S) DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
-                dnl  INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
-                dnl  EVENT SHALL THE AUTHOR(S) BE LIABLE FOR ANY SPECIAL, INDIRECT OR
-                dnl  CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
-                dnl  DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
-                dnl  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-                dnl  PERFORMANCE OF THIS SOFTWARE.
             " desc="" />
             </licensematcher>
             <licensematcher name="Public Domain Disclaimer" desc="">
@@ -138,8 +116,6 @@ used to filter file path.
                 # TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
                 # PERFORMANCE OF THIS SOFTWARE.
             " desc="" />
-            </licensematcher>
-            <licensematcher name="Public Domain Disclaimer" desc="">
                 <licensetext name="
                 # DWAYNE BAILEY AND TRANSLATE.ORG.ZA DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
                 # INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
@@ -148,6 +124,15 @@ used to filter file path.
                 # DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
                 # TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
                 # PERFORMANCE OF THIS SOFTWARE.
+            " desc="" />
+                <licensetext name="
+                * TUOMAS LUKKA DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+                * INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+                * EVENT SHALL TUOMAS LUKKA BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+                * CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+                * DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+                * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+                * PERFORMANCE OF THIS SOFTWARE. 
             " desc="" />
             </licensematcher>
             <licensematcher name="0BSD" desc="">
@@ -159,9 +144,7 @@ used to filter file path.
                 * DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
                 * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
                 * OF THIS SOFTWARE.
-            " desc="" />
-            </licensematcher>
-            <licensematcher name="0BSD" desc="">
+            " desc="" />           
                 <licensetext name="
                 # THE AUTHOR(S) DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
                 # INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
@@ -170,6 +153,15 @@ used to filter file path.
                 # DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
                 # TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
                 # PERFORMANCE OF THIS SOFTWARE.
+            " desc="" />
+                <licensetext name="
+                dnl  THE AUTHOR(S) DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+                dnl  INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+                dnl  EVENT SHALL THE AUTHOR(S) BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+                dnl  CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+                dnl  DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+                dnl  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+                dnl  PERFORMANCE OF THIS SOFTWARE.
             " desc="" />
             </licensematcher>
         </licensematcherlist>

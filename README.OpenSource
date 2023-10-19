@@ -6,6 +6,6 @@
         "Version Number": "452be8125f0e2a18a7dfef469e05d19374d36307",
         "Owner": "huangjiewen2@huawei.com",
         "Upstream URL": "https://chromium.googlesource.com/external/fontconfig.git@452be8125f0e2a18a7dfef469e05d19374d36307",
-        "Description": "第三方软件fontconfig"
+        "Description": "第三方软件fontconfig,实现字体的fallback机制"
     }
 ]
