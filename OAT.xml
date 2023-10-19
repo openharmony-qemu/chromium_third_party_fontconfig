@@ -83,8 +83,8 @@ used to filter file path.
                 <filteritem type="filepath" name="test/8x16.pcf" desc="chromium原生二进制文件,不会使用" />
             </filefilter>
             <filefilter name="defaultFilter" desc="File is not used">
-                <filteritem type="filepath" name="m4/ax_cc_for_build.m4" desc="该文件涉及GPL-3.0+,经确认不会使用" />
-                <filteritem type="filepath" name="m4/ax_pthread.m4" desc="该文件涉及GPL-3.0+,经确认不会使用" />
+                <filteritem type="filepath" name="m4/ax_cc_for_build.m4" desc="经确认，该文件不会使用" />
+                <filteritem type="filepath" name="m4/ax_pthread.m4" desc="经确认，该文件不会使用" />
             </filefilter>
         </filefilterlist>
         <licensematcherlist>
