@@ -52,8 +52,8 @@ typedef int		FcBool;
  */
 
 #define FC_MAJOR	2
-#define FC_MINOR	14
-#define FC_REVISION	2
+#define FC_MINOR	15
+#define FC_REVISION	0
 
 #define FC_VERSION	((FC_MAJOR * 10000) + (FC_MINOR * 100) + (FC_REVISION))
 
@@ -129,6 +129,8 @@ typedef int		FcBool;
 #define FC_FONT_HAS_HINT    "fonthashint"	/* Bool - true if font has hinting */
 #define FC_ORDER	    "order"		/* Integer */
 #define FC_DESKTOP_NAME     "desktop"		/* String */
+#define FC_NAMED_INSTANCE   "namedinstance"	/* Bool - true if font is named instance */
+#define FC_FONT_WRAPPER     "fontwrapper" 	/* String */
 
 #define FC_CACHE_SUFFIX		    ".cache-" FC_CACHE_VERSION
 #define FC_DIR_CACHE_FILE	    "fonts.cache-" FC_CACHE_VERSION
