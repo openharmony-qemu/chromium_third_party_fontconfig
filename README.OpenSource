@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "fontconfig",
+        "License": "HPND-sell-variant",
+        "License File": "COPYING",
+        "Version Number": "14d466b30a8ab4a9d789977ed94f2c30e7209267",
+        "Owner": "huamengzheng@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/fontconfig.git@14d466b30a8ab4a9d789977ed94f2c30e7209267",
+        "Description": "第三方软件fontconfig,实现字体的fallback机制"
+    }
+]
